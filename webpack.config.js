@@ -1,5 +1,4 @@
 const path = require("path");
-
 module.exports = {
   entry: path.resolve(__dirname, "src", "index.js"),
   output: {
@@ -20,7 +19,14 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [{ loader: "style-loader" }, { loader: "css-loader" }]
+        use: [
+          {
+            loader: "style-loader"
+          },
+          {
+            loader: "css-loader"
+          }
+        ]
       },
       {
         test: /.*\.(gif|png|jpe?g)$/i,
