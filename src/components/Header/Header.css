@@ -20,3 +20,12 @@
 .facebook {
   margin-left: 20px;
 }
+
+.text-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 900px;
+  margin: 0 auto 0px;
+  justify-content: space-between;
+}
