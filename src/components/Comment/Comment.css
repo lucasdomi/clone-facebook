@@ -1,0 +1,20 @@
+.comments {
+  display: flex;
+  align-items: flex-start;
+}
+
+.comments-body {
+  border-radius: 9px;
+  background-color: gainsboro;
+  width: 100%;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.comments-author {
+  font-weight: bold;
+}
+
+.comments-content {
+  margin-right: 10px;
+}
