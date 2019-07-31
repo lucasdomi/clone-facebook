@@ -6,7 +6,7 @@ export default class Post extends Component {
     const { content, author, date, comments } = this.props.data;
     return (
       <div className="post">
-        <div class="post-header">
+        <div className="post-header">
           <img className="avatar" src={author.avatar} />
           <div className="post-header__text">
             <span>{author.name}</span>
