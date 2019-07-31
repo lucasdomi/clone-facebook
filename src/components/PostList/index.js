@@ -39,6 +39,14 @@ class PostList extends Component {
               avatar: "https://i.pravatar.cc/150?img=1"
             },
             content: "Conteúdo do comentário"
+          },
+          {
+            id: 2,
+            author: {
+              name: "Diego Fernandes",
+              avatar: "https://i.pravatar.cc/150?img=1"
+            },
+            content: "Conteúdo do comentário"
           }
         ]
       }
